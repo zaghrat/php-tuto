@@ -7,6 +7,16 @@
 <body>
 <?php
 
+$a = 17;
+$b = 150;
+
+echo ($a <=> $b);
+/*
+ * -1 -> a < b
+ *  0 -> a = b
+ *  1 -> a > b
+ */
+
 /**
  * Permet de calculer la somme de 2 valeurs
  * @param float $nb1 Premier nombre
